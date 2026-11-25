@@ -9,12 +9,7 @@ void Participant::ShowCard(const Participant& card)const//残骸、ホントは�
 	
 }
 
-void Participant::Hit(Shoe& shoe)
-{
-	int tmp = shoe.TakeCard();
-	Card = static_cast<CardValue>((tmp % 13) + 1); //カードの値をCardValueに変換
-	Suit = static_cast<CardSuit>(tmp / 13); //カードのスートをCardSuitに変換
-}
+
 
 CardValue Participant::GetCardValue()const
 {

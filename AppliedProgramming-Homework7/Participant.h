@@ -7,7 +7,7 @@ class Participant
 public:
 	const char* name;
 	void ShowCard(const Participant& card)const;
-	virtual void Hit(Shoe& shoe);
+	virtual void Hit(Shoe& shoe) = 0;
 	CardValue GetCardValue()const;
 	CardSuit GetCardSuit()const;
 protected:

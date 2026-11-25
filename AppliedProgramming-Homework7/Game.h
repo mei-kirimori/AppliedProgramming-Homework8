@@ -1,5 +1,9 @@
 #pragma once
-#include"Compile.h"
+#include "Common.h"
+#include "Shoe.h"
+#include "Participant.h"
+#include "Dealer.h"
+#include "Player.h"
 class Game
 {
 public:
