@@ -8,4 +8,5 @@
 #include <iostream>
 using namespace std;
 
+
 //ただGame.cppを見やすくするためだけに作られたヘッダー

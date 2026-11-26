@@ -4,7 +4,7 @@
 class Player :public Participant
 {
 public:
-	Player(const char* name);
+	Player();
 	void Hit(Shoe& shoe);
 private:
 
